@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://klinikhaya.com"),
   title: `${BRAND.name} - Klinik Keluarga & Kesihatan Wanita di Kajang, Selangor`,
   description: "Klinik Haya yang beroperasi di Alam Sari komited memberikan rawatan perubatan menyeluruh untuk seisi keluarga – dari bayi, kanak-kanak, ibu mengandung hingga ke warga emas. Perkhidmatan 24 jam tersedia.",
-  keywords: BRAND.keywords,
+  keywords: [...BRAND.keywords],
   authors: [{ name: BRAND.name }],
 
   openGraph: {

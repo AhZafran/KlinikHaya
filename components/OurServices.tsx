@@ -30,7 +30,7 @@ const services = [
 
 // Split services into slides of 6
 const servicesPerSlide = 6;
-const slides = [];
+const slides: typeof services[] = [];
 for (let i = 0; i < services.length; i += servicesPerSlide) {
   slides.push(services.slice(i, i + servicesPerSlide));
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { Stethoscope, ClipboardCheck, TestTube, Scan, Syringe, Baby, Wind, Activity, Brain, HeartPulse, UserCheck, Calendar, Pill, Shield, Microscope, Users } from "lucide-react";
+import { Stethoscope, ClipboardCheck, TestTube, Scan, Syringe, Baby, Wind, Activity, Brain, HeartPulse, UserCheck, Calendar, Pill, Shield, Microscope, Users, Scissors, Layers, UserCircle, User, Target } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -26,6 +26,11 @@ const services = [
   { icon: Shield, title: "Vaginismus dan Masalah Seksual Wanita" },
   { icon: Microscope, title: "Ujian Kesuburan Lelaki dan Wanita" },
   { icon: Users, title: "Pap Smear dan Saringan Kanser Payudara" },
+  { icon: Scissors, title: "Pembedahan Kecil" },
+  { icon: Layers, title: "Pembedahan Ketuat dan Ketumbuhan Kulit" },
+  { icon: UserCircle, title: "Khatan Kanak-kanak" },
+  { icon: User, title: "Khatan Dewasa (Adult Circumcision)" },
+  { icon: Target, title: "Suntikan Sendi (Intraarticular Injection)" },
 ];
 
 // Split services into slides of 6

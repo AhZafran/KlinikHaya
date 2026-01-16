@@ -13,19 +13,11 @@ const services = [
   { icon: Stethoscope, title: "Rawatan Am & Akut" },
   { icon: ClipboardCheck, title: "Medical Checkup Pelajar/Prapekerjaan" },
   { icon: TestTube, title: "Ujian Darah, Air Kencing & ECG" },
-  { icon: Scan, title: "Pemeriksaan Ultrasound (Antenatal dan lain-lain)" },
   { icon: Activity, title: "Rawatan Denggi, COVID-19, Influenza & Penyakit Kelamin (STD)" },
   { icon: Baby, title: "Pemeriksaan Kuning Bayi (Jaundis)" },
   { icon: Wind, title: "Nebuliser & Sedut Kahak Rawatan Cuci Luka" },
   { icon: Syringe, title: "Suntikan Vaksin Dewasa dan Kanak-kanak" },
   { icon: Brain, title: "Kesihatan Mental & Kaunseling" },
-  { icon: HeartPulse, title: "Kesihatan Wanita dan Reproduktif" },
-  { icon: UserCheck, title: "Rawatan Antenatal & Postnatal Laktasi & Penyusuan Ibu" },
-  { icon: Calendar, title: "Kaunseling Perancang Keluarga" },
-  { icon: Pill, title: "Masalah Haid & Hormon (PCOS & Menopaus)" },
-  { icon: Shield, title: "Vaginismus dan Masalah Seksual Wanita" },
-  { icon: Microscope, title: "Ujian Kesuburan Lelaki dan Wanita" },
-  { icon: Users, title: "Pap Smear dan Saringan Kanser Payudara" },
   { icon: Scissors, title: "Pembedahan Kecil" },
   { icon: Layers, title: "Pembedahan Ketuat dan Ketumbuhan Kulit" },
   { icon: UserCircle, title: "Khatan Kanak-kanak" },
@@ -47,7 +39,7 @@ export function OurServices() {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#8c55a1] mb-4">
-            Perkhidmatan Kami
+            Lain-lain Perkhidmatan Kami
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Kami menyediakan pelbagai perkhidmatan kesihatan yang komprehensif untuk anda & keluarga

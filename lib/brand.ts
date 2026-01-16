@@ -16,7 +16,7 @@ export const BRAND = {
 
   // Logo
   logo: {
-    path: "/images/logo.svg",
+    path: "/images/logo-haya.png",
     alt: "Logo Klinik Haya - Klinik Keluarga & Kesihatan Wanita di Kajang, Selangor"
   },
 

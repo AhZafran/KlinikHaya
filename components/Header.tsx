@@ -9,19 +9,15 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full bg-white shadow-md">
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6 lg:px-8 max-w-7xl">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center">
           <Image
             src={BRAND.logo.path}
             alt={BRAND.logo.alt}
-            width={48}
-            height={48}
+            width={120}
+            height={60}
             className="object-contain"
             priority
           />
-          <div className="flex flex-col leading-tight">
-            <span className="text-xl font-bold text-[#8c55a1] tracking-tight">KLINIK</span>
-            <span className="text-xl font-bold text-[#8c55a1] tracking-tight">HAYA</span>
-          </div>
         </Link>
 
         {/* WhatsApp Button */}

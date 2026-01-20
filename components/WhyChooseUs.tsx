@@ -1,35 +1,42 @@
-import { Award, Building2, Clock, ParkingCircle, Shield, Wallet } from "lucide-react";
+import { Icon } from "@iconify/react";
+import { ParkingCircle, Clock } from "lucide-react";
 
 const features = [
   {
-    icon: Award,
+    icon: "healthicons:doctor",
     title: "Dr dan Staff Berpengalaman",
-    description: "Pasukan perubatan berpengalaman yang komited untuk kesihatan anda"
+    description: "Pasukan perubatan berpengalaman yang komited untuk kesihatan anda",
+    useLucide: false
   },
   {
-    icon: Building2,
+    icon: "healthicons:hospital",
     title: "Klinik yang Bersih dan Selesa",
-    description: "Persekitaran klinik yang bersih, selesa dan mesra keluarga"
+    description: "Persekitaran klinik yang bersih, selesa dan mesra keluarga",
+    useLucide: false
   },
   {
-    icon: Clock,
+    icon: "clock",
     title: "Masa Menunggu yang Sekejap",
-    description: "Perkhidmatan cepat dan efisien untuk menjimatkan masa anda"
+    description: "Perkhidmatan cepat dan efisien untuk menjimatkan masa anda",
+    useLucide: true
   },
   {
-    icon: ParkingCircle,
+    icon: "parking",
     title: "Parking Banyak dan Mudah",
-    description: "Kemudahan parking yang luas dan mudah diakses"
+    description: "Kemudahan parking yang luas dan mudah diakses",
+    useLucide: true
   },
   {
-    icon: Shield,
+    icon: "healthicons:health-data-security",
     title: "Lebih dari 5 Panel Klinik",
-    description: "Rangkaian panel klinik yang luas untuk kemudahan anda"
+    description: "Rangkaian panel klinik yang luas untuk kemudahan anda",
+    useLucide: false
   },
   {
-    icon: Wallet,
+    icon: "healthicons:coins",
     title: "Harga Berpatutan",
-    description: "Perkhidmatan berkualiti tinggi dengan harga yang berpatutan"
+    description: "Perkhidmatan berkualiti tinggi dengan harga yang berpatutan",
+    useLucide: false
   },
 ];
 
@@ -49,25 +56,30 @@ export function WhyChooseUs() {
 
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => {
-            const Icon = feature.icon;
-            return (
-              <div
-                key={index}
-                className="text-center p-8 rounded-xl bg-white shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2"
-              >
-                <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-[#8c55a1] to-[#de539d] text-white shadow-lg">
-                  <Icon className="h-10 w-10" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-[#8c55a1]">
-                  {feature.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {feature.description}
-                </p>
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="text-center p-8 rounded-xl bg-white shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2"
+            >
+              <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-[#8c55a1] to-[#de539d] text-white shadow-lg">
+                {feature.useLucide ? (
+                  feature.icon === "parking" ? (
+                    <ParkingCircle className="h-10 w-10" />
+                  ) : feature.icon === "clock" ? (
+                    <Clock className="h-10 w-10" />
+                  ) : null
+                ) : (
+                  <Icon icon={feature.icon} className="h-10 w-10" />
+                )}
               </div>
-            );
-          })}
+              <h3 className="text-xl font-bold mb-3 text-[#8c55a1]">
+                {feature.title}
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                {feature.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { MapPin, Phone, Clock, Mail, Facebook, Instagram } from "lucide-react";
-import { BRAND, getWhatsAppUrl, getPhoneUrl, getEmailUrl } from "@/lib/brand";
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react";
+import { BRAND, getPhoneUrl, getEmailUrl } from "@/lib/brand";
 
 export function Footer() {
   return (

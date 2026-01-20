@@ -1,6 +1,6 @@
 "use client";
 
-import { Heart } from "lucide-react";
+import { Icon } from "@iconify/react";
 import { motion } from "motion/react";
 import Image from "next/image";
 
@@ -113,7 +113,7 @@ export function PanelKlinik() {
         >
           <div className="rounded-xl border-2 border-white bg-white p-6 shadow-lg inline-block">
             <div className="flex items-center gap-3 text-[#8c55a1]">
-              <Heart className="h-6 w-6 fill-[#de539d] text-[#de539d]" />
+              <Icon icon="healthicons:heart" className="h-6 w-6 text-[#de539d]" />
               <p className="text-sm font-medium">
                 Tidak pasti sama ada panel anda diterima? Hubungi kami untuk pengesahan.
               </p>

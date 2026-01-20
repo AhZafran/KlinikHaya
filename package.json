@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@iconify-json/healthicons": "^1.2.12",
+    "@iconify/react": "^6.0.2",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/postcss": "^4",
     "class-variance-authority": "^0.7.1",

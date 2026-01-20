@@ -1,6 +1,6 @@
 import Link from "next/link";
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Clock, Mail, MessageCircle } from "lucide-react";
 import { BRAND, getWhatsAppUrl, getPhoneUrl, getEmailUrl } from "@/lib/brand";
 
 export function ContactUs() {

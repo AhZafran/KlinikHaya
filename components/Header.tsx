@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Icon } from "@iconify/react";
 import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
 import { BRAND, getWhatsAppUrl } from "@/lib/brand";
 
 export function Header() {
@@ -26,7 +26,7 @@ export function Header() {
             size="lg"
             className="bg-[#de539d] hover:bg-[#de539d]/90 text-white font-semibold shadow-lg h-12 px-6"
           >
-            <MessageCircle className="h-5 w-5" />
+            <Icon icon="healthicons:communication" className="h-5 w-5" />
             <span className="hidden sm:inline">WhatsApp Kami</span>
             <span className="sm:hidden">Chat</span>
           </Button>

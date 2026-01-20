@@ -1,6 +1,6 @@
 "use client";
 
-import { Stethoscope, ClipboardCheck, TestTube, Scan, Syringe, Baby, Wind, Activity, Brain, HeartPulse, UserCheck, Calendar, Pill, Shield, Microscope, Users, Scissors, Layers, UserCircle, User, Target } from "lucide-react";
+import { Icon } from "@iconify/react";
 import {
   Carousel,
   CarouselContent,
@@ -10,19 +10,19 @@ import {
 } from "@/components/ui/carousel";
 
 const services = [
-  { icon: Stethoscope, title: "Rawatan Am & Akut" },
-  { icon: ClipboardCheck, title: "Medical Checkup Pelajar/Prapekerjaan" },
-  { icon: TestTube, title: "Ujian Darah, Air Kencing & ECG" },
-  { icon: Activity, title: "Rawatan Denggi, COVID-19, Influenza & Penyakit Kelamin (STD)" },
-  { icon: Baby, title: "Pemeriksaan Kuning Bayi (Jaundis)" },
-  { icon: Wind, title: "Nebuliser & Sedut Kahak Rawatan Cuci Luka" },
-  { icon: Syringe, title: "Suntikan Vaksin Dewasa dan Kanak-kanak" },
-  { icon: Brain, title: "Kesihatan Mental & Kaunseling" },
-  { icon: Scissors, title: "Pembedahan Kecil" },
-  { icon: Layers, title: "Pembedahan Ketuat dan Ketumbuhan Kulit" },
-  { icon: UserCircle, title: "Khatan Kanak-kanak" },
-  { icon: User, title: "Khatan Dewasa (Adult Circumcision)" },
-  { icon: Target, title: "Suntikan Sendi (Intraarticular Injection)" },
+  { icon: "healthicons:stethoscope", title: "Rawatan Am & Akut" },
+  { icon: "healthicons:health-worker-form", title: "Medical Checkup Pelajar/Prapekerjaan" },
+  { icon: "healthicons:blood-cells", title: "Ujian Darah, Air Kencing & ECG" },
+  { icon: "healthicons:virus", title: "Rawatan Denggi, COVID-19, Influenza & Penyakit Kelamin (STD)" },
+  { icon: "healthicons:baby-0306m", title: "Pemeriksaan Kuning Bayi (Jaundis)" },
+  { icon: "healthicons:inpatient", title: "Nebuliser & Sedut Kahak Rawatan Cuci Luka" },
+  { icon: "healthicons:syringe-vaccine", title: "Suntikan Vaksin Dewasa dan Kanak-kanak" },
+  { icon: "healthicons:mental-health", title: "Kesihatan Mental & Kaunseling" },
+  { icon: "healthicons:general-surgery", title: "Pembedahan Kecil" },
+  { icon: "healthicons:skin-cancer", title: "Pembedahan Ketuat dan Ketumbuhan Kulit" },
+  { icon: "healthicons:boy-0105y", title: "Khatan Kanak-kanak" },
+  { icon: "healthicons:man", title: "Khatan Dewasa (Adult Circumcision)" },
+  { icon: "healthicons:joints", title: "Suntikan Sendi (Intraarticular Injection)" },
 ];
 
 // Split services into slides of 6
@@ -58,22 +58,19 @@ export function OurServices() {
             {slides.map((slide, slideIndex) => (
               <CarouselItem key={slideIndex}>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  {slide.map((service, index) => {
-                    const Icon = service.icon;
-                    return (
-                      <div
-                        key={index}
-                        className="group rounded-xl border-2 border-gray-100 bg-white p-6 shadow-md transition-all hover:shadow-xl hover:border-[#de539d] hover:-translate-y-1"
-                      >
-                        <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-[#8c55a1] to-[#de539d] text-white shadow-lg">
-                          <Icon className="h-7 w-7" />
-                        </div>
-                        <h3 className="text-base font-bold text-[#8c55a1] group-hover:text-[#de539d] transition-colors leading-snug">
-                          {service.title}
-                        </h3>
+                  {slide.map((service, index) => (
+                    <div
+                      key={index}
+                      className="group rounded-xl border-2 border-gray-100 bg-white p-6 shadow-md transition-all hover:shadow-xl hover:border-[#de539d] hover:-translate-y-1"
+                    >
+                      <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-[#8c55a1] to-[#de539d] text-white shadow-lg">
+                        <Icon icon={service.icon} className="h-7 w-7" />
                       </div>
-                    );
-                  })}
+                      <h3 className="text-base font-bold text-[#8c55a1] group-hover:text-[#de539d] transition-colors leading-snug">
+                        {service.title}
+                      </h3>
+                    </div>
+                  ))}
                 </div>
               </CarouselItem>
             ))}

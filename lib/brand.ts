@@ -145,9 +145,8 @@ export const BRAND = {
 } as const;
 
 // Helper Functions
-export function getWhatsAppUrl(customMessage?: string): string {
-  const message = customMessage || BRAND.contact.whatsappMessage;
-  return `https://wa.me/${BRAND.contact.whatsapp}?text=${encodeURIComponent(message)}`;
+export function getWhatsAppUrl(): string {
+  return "https://wa.link/dhjb4b";
 }
 
 export function getPhoneUrl(): string {

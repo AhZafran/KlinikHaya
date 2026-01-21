@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StructuredData } from "@/components/StructuredData";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { BRAND } from "@/lib/brand";
 
 const openSans = Open_Sans({
@@ -94,6 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <Header />
         {children}
         <Footer />
+        <WhatsAppFloat />
       </body>
     </html>
   );

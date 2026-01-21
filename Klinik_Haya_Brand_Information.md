@@ -136,7 +136,7 @@
    - Limited time offers
 
 3. **Location & Info**
-   - Address: 20-1, Jalan Seri Nilaga, Setia Emporia, 43000 Kajang, Selangor
+   - Address: 20-1, Jalan Sari Niaga, Setia Emporia, 43000 Kajang, Selangor
    - Contact numbers: +60123499793, +60362439793
    - 24-hour service indicator
    - Map/direction graphics
@@ -239,7 +239,7 @@
 - TikTok: @klinikhaya
 
 **Address:**
-20-1, Jalan Seri Nilaga, Setia Emporia, 43000 Kajang, Selangor
+20-1, Jalan Sari Niaga, Setia Emporia, 43000 Kajang, Selangor
 
 **Operating Hours:**
 Open Daily 8:30 AM - 11:00 PM (24-hour services available)

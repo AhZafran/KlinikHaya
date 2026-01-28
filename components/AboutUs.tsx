@@ -41,14 +41,14 @@ export function AboutUs() {
               Klinik Haya yang beroperasi di Alam Sari komited memberikan rawatan perubatan menyeluruh untuk seisi keluarga – dari bayi, kanak-kanak, ibu mengandung hingga ke warga emas. Kami turut memberi tumpuan khusus kepada kesihatan wanita, penyusuan ibu, serta kesihatan mental.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Selain itu, Klinik Haya mengfokuskan kepada perkhidmatan perancangan keluarga, ujian dan saringan kesuburan (fertiliti), bagi menyokong perjalanan kesihatan anda dengan penuh prihatin.
+              Selain itu, Klinik Haya mengfokuskan kepada penjagaan kesihatan menyeluruh termasuk rawatan am, pediatrik, pembedahan kecil, dan perkhidmatan kecemasan 24 jam, bagi menyokong perjalanan kesihatan anda dengan penuh prihatin.
             </p>
 
             {/* Highlights */}
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-gradient-to-br from-[#8c55a1] to-[#de539d] rounded-full flex items-center justify-center">
-                  <Icon icon="healthicons:family-planning" className="w-5 h-5 text-white" />
+                  <Icon icon="healthicons:health" className="w-5 h-5 text-white" />
                 </div>
                 <span className="text-sm font-medium text-gray-700">Kesihatan Keluarga</span>
               </div>

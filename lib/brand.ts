@@ -2,7 +2,7 @@ export const BRAND = {
   // Basic Info
   name: "Klinik Haya",
   tagline: "Your Trusted Clinic for Family & Women's Health",
-  description: "Professional healthcare services specializing in women's health, family clinic, fertility, pediatrics, and lactation support in Kajang, Selangor.",
+  description: "Professional healthcare services specializing in family medicine, women's health, pediatrics, minor surgery, and lactation support in Kajang, Selangor.",
   descriptionMalay: "Klinik Haya yang beroperasi di Alam Sari komited memberikan rawatan perubatan menyeluruh untuk seisi keluarga – dari bayi, kanak-kanak, ibu mengandung hingga ke warga emas.",
 
   // Colors
@@ -73,9 +73,9 @@ export const BRAND = {
       icon: "Heart"
     },
     {
-      title: "Perkhidmatan Kesuburan",
-      titleEn: "Fertility Services",
-      description: "Expert fertility consultation and treatment services",
+      title: "Rawatan Am & Akut",
+      titleEn: "General & Acute Treatment",
+      description: "Comprehensive general and acute medical treatment services",
       icon: "Baby"
     },
     {
@@ -130,14 +130,14 @@ export const BRAND = {
     "klinik keluarga kajang",
     "klinik wanita kajang",
     "kesihatan wanita kajang",
-    "klinik kesuburan kajang",
+    "klinik rawatan am kajang",
     "klinik pediatrik kajang",
     "klinik ibu mengandung kajang",
     "klinik bayi kajang",
     "laktasi kajang",
     "family clinic kajang",
     "women's health kajang",
-    "fertility services kajang",
+    "24 hour clinic kajang",
     "klinik alam sari",
     "klinik setia emporia",
     "klinik sari niaga"

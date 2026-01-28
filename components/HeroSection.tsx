@@ -34,7 +34,7 @@ const doctors = [
     id: "dr-nabilah",
     name: "Dr. Nabilah",
     fullTitle: "Dr. Nabilah | Pakar Kesihatan Wanita",
-    specialty: "Kesihatan Wanita & Kesuburan",
+    specialty: "Kesihatan Wanita & Keluarga",
     headlinePart1: "Penjagaan Ibu Hamil, Kanak-Kanak & ",
     headlineHighlight: "Kesihatan Keluarga",
     location: "",

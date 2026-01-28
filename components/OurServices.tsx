@@ -13,7 +13,7 @@ const services = [
   { icon: "healthicons:stethoscope", title: "Rawatan Am & Akut" },
   { icon: "healthicons:health-worker-form", title: "Medical Checkup Pelajar/Prapekerjaan" },
   { icon: "healthicons:blood-cells", title: "Ujian Darah, Air Kencing & ECG" },
-  { icon: "healthicons:virus", title: "Rawatan Denggi, COVID-19, Influenza & Penyakit Kelamin (STD)" },
+  { icon: "healthicons:virus", title: "Rawatan Denggi, COVID-19 & Influenza" },
   { icon: "healthicons:baby-0306m", title: "Pemeriksaan Kuning Bayi (Jaundis)" },
   { icon: "healthicons:inpatient", title: "Nebuliser & Sedut Kahak Rawatan Cuci Luka" },
   { icon: "healthicons:syringe-vaccine", title: "Suntikan Vaksin Dewasa dan Kanak-kanak" },

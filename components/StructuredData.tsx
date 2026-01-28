@@ -42,10 +42,9 @@ export function StructuredData() {
     "priceRange": "$$",
     "medicalSpecialty": [
       "Family Practice",
-      "Gynecology",
       "Obstetrics",
       "Pediatrics",
-      "Fertility Medicine",
+      "General Practice",
     ],
     "availableService": BRAND.services.map((service) => ({
       "@type": "MedicalProcedure",

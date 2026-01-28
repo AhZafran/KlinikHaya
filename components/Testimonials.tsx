@@ -17,7 +17,7 @@ const testimonials = [
     role: "",
   },
   {
-    text: "I came all the way from Setia Alam just to meet Dr Alia Syamim. She help me with my fertility issue & IUI journey. She even suggest me better options that suits my budget & time. No hard sell whatsoever.",
+    text: "I came all the way from Setia Alam just to meet Dr Alia Syamim. She helped me with my health concerns. She even suggested me better options that suits my budget & time. No hard sell whatsoever.",
     image: "https://ui-avatars.com/api/?name=Syafiqah&background=f492c6&color=fff&size=128",
     name: "Syafiqah",
     role: "",
@@ -65,7 +65,7 @@ const testimonials = [
     role: "",
   },
   {
-    text: "Recommended clinic for family planning. The doctor is really friendly and made me feel comfortable. She's very skilled in IUCD insertion and removal. Highly recommended.",
+    text: "Recommended clinic for the whole family. The doctor is really friendly and made me feel comfortable. She is very skilled and knowledgeable. Highly recommended.",
     image: "https://ui-avatars.com/api/?name=Amirah&background=8c55a1&color=fff&size=128",
     name: "Amirah",
     role: "",

@@ -11,8 +11,8 @@ const features = [
   },
   {
     step: "Kepakaran 2",
-    title: "Kesihatan Wanita dan Reproduktif",
-    content: "Perkhidmatan kesihatan reproduktif yang menyeluruh untuk wanita di semua peringkat kehidupan",
+    title: "Kesihatan Wanita",
+    content: "Perkhidmatan kesihatan yang menyeluruh untuk wanita di semua peringkat kehidupan",
     image: "/images/kepakaran/kesihatan-wanita.avif"
   },
   {
@@ -23,32 +23,32 @@ const features = [
   },
   {
     step: "Kepakaran 4",
-    title: "Kaunseling Perancang Keluarga",
-    content: "Nasihat profesional untuk perancangan keluarga yang sesuai dengan keperluan anda",
+    title: "Penjagaan Ibu Mengandung",
+    content: "Rawatan dan pemantauan menyeluruh untuk kesihatan ibu dan bayi sepanjang kehamilan",
     image: "/images/kepakaran/perancang-keluarga.jpg"
   },
   {
     step: "Kepakaran 5",
-    title: "Masalah Haid & Hormon (PCOS & Menopaus)",
-    content: "Diagnosis dan rawatan untuk masalah hormon termasuk PCOS dan menopaus",
+    title: "Masalah Haid & Hormon",
+    content: "Diagnosis dan rawatan untuk masalah hormon wanita termasuk ketidakseimbangan hormon",
     image: "/images/kepakaran/masalah-hormon.jpeg"
   },
   {
     step: "Kepakaran 6",
-    title: "Vaginismus dan Masalah Seksual Wanita",
-    content: "Rawatan profesional dan kaunseling untuk masalah kesihatan seksual wanita",
+    title: "Pembedahan Kecil & Prosedur",
+    content: "Perkhidmatan pembedahan kecil dan prosedur perubatan yang selamat dan berkualiti",
     image: "/images/kepakaran/kesihatan-seksual.avif"
   },
   {
     step: "Kepakaran 7",
-    title: "Ujian Kesuburan Lelaki dan Wanita",
-    content: "Pemeriksaan menyeluruh untuk mengenal pasti dan mengatasi masalah kesuburan",
+    title: "Pediatrik & Vaksinasi",
+    content: "Perkhidmatan kesihatan kanak-kanak termasuk vaksinasi dan pemeriksaan berkala",
     image: "/images/kepakaran/ujian-kesuburan.jpg"
   },
   {
     step: "Kepakaran 8",
-    title: "Pap Smear dan Saringan Kanser Payudara",
-    content: "Pemeriksaan pencegahan untuk mengesan kanser serviks dan payudara pada peringkat awal",
+    title: "Saringan Kesihatan",
+    content: "Pemeriksaan pencegahan dan saringan kesihatan untuk pengesanan awal penyakit",
     image: "/images/kepakaran/pap-smear.jpg"
   }
 ];

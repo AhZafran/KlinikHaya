@@ -33,7 +33,7 @@ const doctors = [
   {
     id: "dr-nabilah",
     name: "Dr. Nabilah",
-    fullTitle: "Dr. Nabilah | Pakar Kesihatan Wanita",
+    fullTitle: "Dr. Nabilah | Kesihatan Wanita",
     specialty: "Kesihatan Wanita & Keluarga",
     headlinePart1: "Penjagaan Ibu Hamil, Kanak-Kanak & ",
     headlineHighlight: "Kesihatan Keluarga",
@@ -81,9 +81,9 @@ const doctors = [
   {
     id: "dr-fadzli",
     name: "Dr. Fadzli",
-    fullTitle: "Dr. Fadzli | Pakar Pembedahan Kecil",
+    fullTitle: "Dr. Fadzli | Pembedahan Kecil",
     specialty: "Pembedahan Kecil & Prosedur",
-    headlinePart1: "Pakar ",
+    headlinePart1: "",
     headlineHighlight: "Pembedahan Kecil & Prosedur Perubatan",
     location: "di Kajang",
     description: "Dengan kepakaran dan pendekatan yang teliti, kami memberikan perkhidmatan pembedahan kecil dan prosedur perubatan yang selamat dan berkualiti tinggi.",
